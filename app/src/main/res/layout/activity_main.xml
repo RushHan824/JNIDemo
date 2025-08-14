@@ -16,4 +16,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/catmakesound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="26dp"
+        android:text="What sound will a cat make ?"
+        app:layout_constraintBottom_toTopOf="@+id/cateat"
+        app:layout_constraintStart_toStartOf="@+id/cateat" />
+
+    <Button
+        android:id="@+id/cateat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="146dp"
+        android:text="What do cats eat ?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
