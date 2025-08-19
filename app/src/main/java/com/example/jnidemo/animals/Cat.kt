@@ -11,4 +11,10 @@ class Cat : Animal {
 
     external  fun nativeMakeSound():String
     fun calledByNative():String = "Meow~"
+
+     companion object {
+         init {
+             System.loadLibrary("jnidemo")
+         }
+     }
 }
